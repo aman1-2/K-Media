@@ -1,11 +1,13 @@
 {
-  "name": "mern-practice",
+  "name": "k-media",
   "version": "1.0.0",
   "description": "Practice",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "front-end": "npm start --prefix front-end",
+    "dev": "concurrently \"npm run server\" \"npm run front-end\""
   },
   "author": "Kanishk",
   "license": "MIT",
@@ -16,6 +18,7 @@
     "express-validator": "^7.1.0",
     "gravatar": "^1.8.2",
     "jsonwebtoken": "^9.0.2",
+    "k-media": "file:",
     "mongoose": "^8.5.1",
     "request": "^2.88.2",
     "validator": "^13.12.0"
