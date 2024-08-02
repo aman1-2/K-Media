@@ -66,4 +66,3 @@ To set up this project locally, follow these steps:
 - **DELETE /api/posts/:id**: Delete a post by ID.
 
 ## Thank You
-```
